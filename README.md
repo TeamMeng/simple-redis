@@ -12,6 +12,10 @@ RUST_LOG=info cargo run
 redis-cli
 set hello world
 get hello
+hset map hello meng
+hset map goodbye meng
+hget map hello
+hgetall map
 ```
 
 ## 环境设置
