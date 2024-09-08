@@ -1,4 +1,18 @@
-# Geektime Rust 语言训练营
+# 实现一个简单的 redis 服务
+
+## 服务端
+
+```bash
+RUST_LOG=info cargo run
+```
+
+## 客户端
+
+```bash
+redis-cli
+set hello world
+get hello
+```
 
 ## 环境设置
 
